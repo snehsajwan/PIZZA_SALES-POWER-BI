@@ -1,8 +1,8 @@
 # PIZZA_SALES-POWER-BI
-Pizza Sales Analysis
+# Pizza Sales Analysis
 In today's data-driven landscape, businesses from all sectors are leveraging the power of data to gain a competitive edge. The restaurant industry is no exception, constantly striving to understand customer preferences, streamline operations, and enhance the dining experience. Our pizza sales analysis dives into a comprehensive dataset, offering insights that can guide restaurants toward success.
 
-Introduction
+# Introduction
 Our analysis commences with rigorous data cleaning, ensuring the dataset's integrity. Following this, we consolidate key information—datetime, order_id, name, category, size, ingredients, quantity, price, and sales—forming the bedrock of our exploration.
 
 Key Questions Explored
