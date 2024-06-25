@@ -1,40 +1,27 @@
 # PIZZA_SALES-POWER-BI
-# Pizza Sales Analysis
-In today's data-driven landscape, businesses from all sectors are leveraging the power of data to gain a competitive edge. The restaurant industry is no exception, constantly striving to understand customer preferences, streamline operations, and enhance the dining experience. Our pizza sales analysis dives into a comprehensive dataset, offering insights that can guide restaurants toward success.
+# Overview
+The Pizza Sales Project is a data analysis and visualization project aimed at analyzing and visualizing sales data from a fictional pizza restaurant chain. This project utilizes SQL for data extraction and transformation and Power BI for data visualization. The goal of this project is to provide insights and actionable information to help the pizza restaurant chain optimize its operations, improve sales, and enhance customer satisfaction.
 
-# Introduction
-Our analysis commences with rigorous data cleaning, ensuring the dataset's integrity. Following this, we consolidate key information—datetime, order_id, name, category, size, ingredients, quantity, price, and sales—forming the bedrock of our exploration.
+# Project Components
+# 1. Data Acquisition
+The project begins with the acquisition of raw sales data. This data may include information such as customer orders, product details, order dates, and transaction amounts. Data can be obtained from various sources, including databases, CSV files, or other data storage systems.
 
-Key Questions Explored
-Highest Sellers: Identify pizzas with the highest quantity sold and revenue generated.
-Category Insights: Explore which pizza categories drive the highest sales and revenue.
-Size Matters: Analyze specific pizza sizes dominating sales and revenue.
-Seasonal Influence: Investigate seasonal and time-based patterns in pizza sales.
-Ingredient Analysis: Uncover the most common and preferred pizza ingredients, along with notable ingredient pairings.
-Customer Impact: Understand how customer orders and preferences contribute to overall revenue.
-Our in-depth exploration reveals actionable insights that can shape strategic decisions, from menu optimization to peak-hour marketing strategies.
+# 2. Data Transformation with SQL
+SQL (Structured Query Language) is used to clean, filter, and transform the raw data into a format suitable for analysis. This may involve tasks such as joining tables, aggregating data, handling missing values, and creating new calculated fields.
 
-Conclusions
-Data Cleaning & Unification
-The dataset is clean, with no missing values or duplicates.
-We've unified the dataset, creating a robust foundation for our analysis.
-Data Analysis Highlights
-Top-Selling Pizzas: Classic Deluxe Pizza leads with 2,453 units sold, followed closely by Barbeque Chicken Pizza and Hawaiian Pizza.
-Pizza Categories: Classic pizzas not only have the highest quantity sold but also generate the most revenue.
-Pizza Sizes: Large-sized pizzas are the most popular and revenue-generating.
-Seasonal Trends: Sales exhibit stability, with Fridays as the busiest day and lunch and early dinner hours as peak order times.
-Ingredients: Garlic and tomatoes are common, with strong associations like Garlic & Tomatoes and Red Onions & Tomatoes.
-Customer Orders: 38% are single pizza orders, 28.81% contain 2 pizzas, and specific combinations are preferred.
-Consultation Based on Data Insights
-Our recommendations aim to harness these insights effectively:
+# 3. Data Analysis
+Once the data is prepared, various SQL queries are written to perform in-depth data analysis. This may include:
 
-Menu Optimization: Highlight top sellers and introduce variations for high-revenue items.
-Marketing Strategies: Target promotions during peak days and hours.
-Inventory Management: Ensure an adequate supply of popular pizza ingredients.
-Customer Engagement: Offer customization options and gather feedback.
-Combo Deals: Create combos based on popular pizza pairs.
-Operational Efficiency: Align staffing with peak hours and regularly analyze data.
-Suggestions for Further Analysis
-We propose creating an interactive dashboard for real-time monitoring and enhanced decision-making, utilizing data visualization tools like Tableau or Power BI.
+-Identifying top-selling pizza flavors.
+-Analyzing sales trends over time.
+-Evaluating customer demographics and preferences.
+-Calculating average order values.
+-Assessing the performance of individual restaurant locations.
+# 4. Power BI Visualization
+Power BI is used to create interactive and informative visualizations that showcase the insights gained from the data analysis. The visualizations may include:
 
-By implementing these data-driven recommendations, your restaurant can enhance menu offerings, operational efficiency, and customer engagement, ultimately achieving sustained success in the competitive culinary landscape.
+-Bar charts and pie charts displaying sales by product category.
+-Time series charts illustrating sales trends.
+-Geographic maps showing the distribution of restaurant locations.
+-Dashboards summarizing key performance indicators (KPIs).
+# Power BI Visualization
